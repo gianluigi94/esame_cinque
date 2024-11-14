@@ -1,0 +1,842 @@
+body {
+  background-color: #0e0e11;
+
+  //codice per la modale con il form per l'email
+  #little_modal {
+    transition: transform 0.4s linear;
+    transform: scale(0);
+    input {
+      &:focus {
+        box-shadow: 0 0 2px 0.2rem rgb(148, 79, 102);
+      }
+    }
+    .text-danger {
+      margin-left: 85px;
+      margin-top: -40px;
+    }
+  }
+
+  .spazio{
+    padding-right: 10px;
+  }
+  hr {
+    width: 45%;
+    margin-left: 11.5%;
+  }
+
+  // carosello grande boostrap
+  #carouselEx {
+    width: 97.8%;
+    @media (max-width: 1075px) {
+      width: 97%;
+    }
+    @media (max-width: 768px) {
+      padding-right: 30px !important;
+    }
+    @media (max-width: 500px) {
+      margin: 0px !important;
+      padding: 40px 0 0 0 !important;
+    }
+    @media (max-width: 415px) {
+      padding: 40px 5px 0 0 !important;
+    }
+  }
+
+  .carousel-wrapper img {
+    max-height: 200px;
+  }
+
+  #dataNascita {
+    position: relative;
+    color: rgb(136, 136, 136);
+  }
+
+  // pulsante icona per la data di nascita
+  #dataNascita::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: -3px;
+    width: 40px;
+    height: 41px;
+    background-color: #52585f;
+    border: 1px solid #52585f;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Crect%20x%3D%222%22%20y%3D%224%22%20width%3D%2220%22%20height%3D%2218%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222%22/%3E%3Crect%20x%3D%226%22%20y%3D%222%22%20width%3D%222%22%20height%3D%224%22%20fill%3D%22%23fff%22/%3E%3Crect%20x%3D%2216%22%20y%3D%222%22%20width%3D%222%22%20height%3D%224%22%20fill%3D%22%23fff%22/%3E%3Cline%20x1%3D%222%22%20y1%3D%228%22%20x2%3D%2222%22%20y2%3D%228%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22/%3E%3Cline%20x1%3D%222%22%20y1%3D%2212%22%20x2%3D%2222%22%20y2%3D%2212%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22/%3E%3Cline%20x1%3D%222%22%20y1%3D%2216%22%20x2%3D%2222%22%20y2%3D%2216%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22/%3E%3Cline%20x1%3D%222%22%20y1%3D%2220%22%20x2%3D%2222%22%20y2%3D%2220%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22/%3E%3Cline%20x1%3D%226%22%20y1%3D%228%22%20x2%3D%226%22%20y2%3D%2220%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22/%3E%3Cline%20x1%3D%2210%22%20y1%3D%228%22%20x2%3D%2210%22%20y2%3D%2220%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22/%3E%3Cline%20x1%3D%2214%22%20y1%3D%228%22%20x2%3D%2214%22%20y2%3D%2220%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22/%3E%3Cline%20x1%3D%2218%22%20y1%3D%228%22%20x2%3D%2218%22%20y2%3D%2220%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+  }
+
+  // carta con trailer
+  #dynamic-card {
+    border: 1px solid deeppink;
+    background-color: #0e0e11;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    a {
+      border: none;
+    }
+  }
+  // video per la card animata
+  video {
+    display: none;
+  }
+  // informazioni film pagina singola
+  main {
+    @media (max-width: 860px) {
+      margin-bottom: 100px;
+    }
+    @media (max-width: 600px) {
+      margin-bottom: 210px;
+    }
+
+    @media (max-width: 490px) {
+      margin-bottom: 250px;
+    }
+    @media (max-width: 380px) {
+      margin-bottom: 220px;
+    }
+    div:first-child {
+      @media (max-width: 600px) {
+        width: 350px;
+        margin-top: -20px;
+      }
+      @media (max-width: 490px) {
+        margin-left: 4px !important;
+        width: 300px;
+      }
+    }
+    h1 {
+      @media (max-width: 380px) {
+        font-size: 30px;
+        width: 180px;
+      }
+    }
+    p {
+      @media (max-width: 700px) {
+        font-size: 14px;
+      }
+    }
+    p a {
+      color: deeppink;
+      text-decoration: none;
+    }
+    .button_a {
+      @media (max-width: 600px) {
+        flex-direction: column;
+        width: 150px;
+      }
+      a:first-child {
+        border: 1px solid deeppink;
+        background-color: deeppink;
+        color: white;
+      }
+      a {
+        background-color: transparent;
+        color: rgb(236, 200, 36);
+        border: 1px solid rgb(236, 200, 36);
+      }
+    }
+    height: 500px;
+    p {
+      max-width: 70%;
+      @media (max-width: 600px) {
+        width: 400px;
+      }
+      @media (max-width: 440px) {
+        width: 350px;
+      }
+    }
+    ul {
+      color: rgb(221, 141, 168);
+    }
+    table {
+      color: rgb(221, 141, 168);
+    }
+
+    //immagine principale per film pagina singola
+    figure {
+      width: 500px;
+      height: 900px;
+      .primary-img {
+        top: 50px;
+        right: 45px;
+        width: 900px;
+        height: 597px;
+        @media (max-width: 1200px) {
+          width: 700px;
+        }
+        @media (max-width: 1000px) {
+          width: 550px;
+        }
+        @media (max-width: 830px) {
+          object-fit: cover;
+          object-position: 75%;
+        }
+        @media (max-width: 600px) {
+          display: none;
+        }
+      }
+      .secondary-img {
+        //immagine principale per schermi piccoli
+        display: none;
+        position: absolute;
+        top: 140px;
+        right: 25px;
+        width: 400px;
+        height: 597px;
+        @media (max-width: 600px) {
+          display: block;
+        }
+        @media (max-width: 515px) {
+          width: 350px;
+        }
+        @media (max-width: 490px) {
+          right: 15px;
+        }
+        @media (max-width: 340px) {
+          opacity: 50%;
+        }
+      }
+      span {
+        // span che sovrappone l'immagine principale per effetto sfumatura
+        top: 49px;
+        right: 42px;
+        background: linear-gradient(to top, #0e0e11, transparent),
+          linear-gradient(to right, #0e0e11, transparent);
+        width: 905px;
+        height: 705px;
+        @media (max-width: 1200px) {
+          width: 705px;
+        }
+        @media (max-width: 1000px) {
+          width: 555px;
+        }
+        @media (max-width: 860px) {
+          background: linear-gradient(to top, #0e0e11 10%, transparent),
+            linear-gradient(to right, #0e0e11 30%, transparent);
+          height: 600px;
+        }
+        @media (max-width: 730px) {
+          background: linear-gradient(to top, #0e0e11 10%, transparent),
+            linear-gradient(to right, #0e0e11 40%, transparent);
+        }
+        @media (max-width: 600px) {
+          background: linear-gradient(to top, #0e0e11 10%, transparent),
+            linear-gradient(to right, #0e0e11 50%, transparent);
+          right: -40px;
+          
+          height: 700px;
+          right: 8px;
+        }
+        @media (max-width: 490px) {
+          background: linear-gradient(to top, #0e0e11 10%, transparent),
+            linear-gradient(to right, #0e0e11 70%, transparent);
+        }
+        @media (max-width: 350px) {
+          background: linear-gradient(to top, #0e0e11 10%, transparent),
+            linear-gradient(to right, #0e0e11 75%, transparent);
+        }
+      }
+    }
+  }
+
+  //barra di ricerca
+  input[type="search"] {
+    width: 200px;
+    color: white;
+    background-color: #343a40;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    height: auto;
+    &::placeholder {
+      color: rgb(136, 136, 136);
+    }
+  }
+
+  //barra superiore
+  nav {
+    background-color: #181818;
+
+    .container-fluid .new_naw {
+      width: fit-content;
+    }
+    .offcanvas-header {
+      background-color: deeppink;
+      max-height: 70px;
+    }
+  }
+  nav .container-fluid{
+    @media (max-width: 575px) {
+      width: 100% !important;
+    }
+  }
+
+  .dropdown-menu .dropdown-item:hover {
+    background-color: palevioletred;
+  }
+
+  .btn {
+    background-color: deeppink;
+
+    &:hover {
+      background-color: deeppink;
+    }
+  }
+
+  // modale form email
+  .modal-content {
+    background: #181818ef;
+    margin-top: -200px;
+
+    @media (max-width: 1600px) {
+      margin-top: -100px;
+    }
+
+    .form-control::placeholder {
+      color: #ffffff;
+      opacity: 0.2;
+    }
+    .span_uno {
+      width: 1px;
+      transform: translateX(-15px) scaleY(1.1);
+    }
+
+    .span_due {
+      width: 1px;
+      transform: translateX(15px) scaleY(1.1);
+    }
+
+    .span_quattro {
+      width: 1px;
+      transform: translateX(15px) scaleY(1.03);
+    }
+  }
+
+  //area del body per immagine con animazioni
+  .sfondo {
+    perspective: 600px; //imposto una prospettiva al piano di lavoro
+    height: calc(100% - 100px);
+
+    .black_screen {
+      // sfondo con gradiente sopra animazioni
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.59),
+        rgba(0, 0, 0, 0.775)
+      );
+    }
+    .nascondi {
+      animation: fadeInOut 130s linear infinite;
+    }
+  }
+
+  .scrolling {
+    //div per animazione
+    will-change: transform;
+    top: 265px;
+    margin-left: -200px;
+    transform-style: preserve-3d;
+    transform: translateY(-50%);
+    animation: scroll 120s linear infinite;
+
+    img {
+      height: 990px;
+      transform: rotate(-5deg);
+
+      &.second_img { // migliorie per immagine che segue
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .mb-0 {
+    font-size: 15px;
+  }
+
+  //icone caroselli
+  .carousel-indicators {
+    width: fit-content;
+    span {
+      width: 30px;
+      height: 1px;
+      z-index: -1;
+      top: 3px;
+      left: 1px;
+    }
+  }
+
+  .img_gap {
+    gap: 12px;
+    img {
+      width: calc((100% - 40px) / 5);
+    }
+  }
+
+  .footer_long { //allungo il footer per far stare l'apertura del video anche su schermi piccoli
+    @media (max-width: 1250px) {
+      height: 207px;
+    }
+    @media (max-width: 595px) {
+      height: 220px;
+    }
+    @media (max-width: 400px) {
+      height: 250px;
+    }
+    span {
+      color: deeppink;
+    }
+  }
+}
+
+footer span {
+  color: deeppink;
+}
+
+//animazioni di scorrimento
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0) translateY(-50%) rotateX(25deg) scale(1)
+      translateZ(0);
+  }
+  50% {
+    transform: translateX(-25%) translateY(-50%) rotateX(40deg) scale(1)
+      translateZ(0);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotateX(25deg) scale(1)
+      translateZ(0);
+  }
+}
+
+//codice barra di navigazione
+::-webkit-scrollbar {
+  width: 2px; /* Barra verticale */
+  height: 2px; /* Barra orizzontale */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+
+//icone pulsanti navigazione
+.prev-btn {
+  z-index: 11;
+  margin-left: 7px;
+}
+
+.next-btn {
+  z-index: 11;
+  margin-right: 7px;
+}
+
+.carousel-control-prev {
+  i {
+    &:first-of-type {
+      left: -4px;
+    }
+  }
+}
+
+.carousel-control-next {
+  i {
+    &:first-of-type {
+      right: -3px;
+    }
+  }
+}
+
+.carousel-control-next_two {
+  width: auto;
+  height: auto;
+  right: 20px;
+
+  @media (max-width: 768px) {
+    right: 0px;
+  }
+  span {
+    margin-right: 9px;
+  }
+}
+.carousel-control-prev_two {
+  width: auto;
+  height: auto;
+  left: 22px;
+
+  @media (max-width: 768px) {
+    left: 2px;
+  }
+  span {
+    margin-left: 8px;
+  }
+}
+
+.btn_ricerca {
+  background: transparent;
+  border: none;
+  color: deeppink;
+}
+
+.d-flex .large_ric {
+  width: 50%;
+  @media (max-width: 450px) {
+    width: 90%;
+  }
+}
+
+.nome_utente {
+  @media (max-width: 375px) {
+    font-size: 12px;
+  }
+  i {
+    @media (max-width: 375px) {
+      font-size: 15px;
+    }
+  }
+}
+
+//menu hamburger
+.navbar-toggler {
+  @media (max-width: 376px) {
+    height: 27px;
+    width: 32px;
+  }
+  span {
+    @media (max-width: 376px) {
+      height: 21px;
+      width: 18px;
+      position: absolute;
+      top: 18px;
+      right: 19px;
+    }
+  }
+}
+
+//carosello secondario
+.carousel-inner {
+  @media (max-width: 768px) {
+    height: 280px;
+  }
+  
+
+  img {
+    height: 310px;
+
+    @media (max-width: 668px) {
+      height: 250px;
+    }
+  }
+
+  .carousel-item:first-child img {
+    @media (max-width: 430px) {
+      object-fit: cover;
+      object-position: 15% center;
+      width: 90%;
+    }
+  }
+  .carousel-item:last-child img {
+    @media (max-width: 480px) {
+      object-fit: cover;
+      object-position: 95% center;
+      width: 90%;
+    }
+  }
+}
+
+.modal .modal-dialog .modal-content .modal-body .d-flex img {
+  height: 28px;
+}
+
+//modale con form completo  
+#big_modal {
+  transform: scale(0);
+  transition: transform 0.4s linear;
+  top: 194px;
+  left: 17%;
+  @media (max-width: 992px) {
+    left: 7%;
+    top: 180px;
+  }
+  .span_tre {
+    top: -50px !important;
+    width: 1px;
+    transform: translateX(-21px) scaleY(1.27);
+  }
+  .span_quattro {
+    top: -50px !important;
+    width: 1px;
+    transform: translateX(21px) scaleY(1.27);
+  }
+  .modal-content {
+    max-height: 72vh;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
+
+.modal_form {
+  width: 67vw;
+  @media (max-width: 992px) {
+    width: 87vw;
+  }
+  
+  button {
+    width: 30.5%;
+    font-size: 13px;
+    @media (max-width: 767px) {
+      width: 50%;
+    }
+    @media (max-width: 415px) {
+      width: 80%;
+    }
+    &:first-child {
+      margin-right: 19px;
+      background-color: #52585f;
+    }
+  }
+  h3 {
+    font-size: 46px;
+    font-weight: bolder;
+    @media (max-width: 630px) {
+      font-size: 26px;
+      padding-left: 18px;
+    }
+  }
+  .modal-content {
+    padding: 45px 60px;
+    @media (max-width: 620px) {
+      padding: 45px 10px;
+    }
+    .text-danger {
+      padding: 0;
+      max-width: 100%;
+    }
+    div {
+      label {
+        font-size: 14px;
+      }
+      div {
+        p {
+          max-width: 200px;
+          padding-left: 30px;
+          color: #bdbdbd;
+          opacity: 0;
+        }
+
+        input,
+        select {
+          width: 65%;
+          max-height: 38px;
+          @media (max-width: 992px) {
+            width: 87%;
+          }
+
+          &:focus {
+            outline: none !important;
+            border: none !important;
+            background-color: white !important;
+            color: #0e0e11 !important;
+            box-shadow: 0 0 2px 0.2rem rgb(148, 79, 102);
+          }
+          &::placeholder {
+            color: #bdbdbd;
+            opacity: 0.8;
+          }
+
+          &:not(:focus):invalid {
+            color: #bdbdbd;
+          }
+          option {
+            color: #0e0e11;
+            &:hover {
+              background-color: rgba(216, 112, 147, 0.11);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//codice per libreria select2
+.select2-results__option {
+  color: #0e0e11;
+  background-color: white;
+}
+
+.select2-results__option--highlighted {
+  background-color: palevioletred !important;
+}
+
+#sesso,
+#nazione {
+  width: 65%;
+}
+
+.select2-selection__rendered {
+  color: white !important; //per prima voce selezionata
+}
+
+.select2-container .select2-selection--single {
+  height: 36px !important;
+  padding-top: 3px;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.select2-container .select2-selection--single .select2-selection__arrow {
+  margin-top: 3px;
+}
+
+.select2-selection__clear {
+  color: rgb(136, 136, 136);
+  cursor: pointer;
+  padding-left: 125px;
+  @media (max-width: 1245px) {
+    padding-left: 20%;
+  }
+}
+button.select2-selection__clear {
+  @media (max-width: 415px) {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+  }
+}
+.select2-selection__clear:hover {
+  color: deeppink;
+}
+
+.select2-container--default .select2-selection--single {
+  background-color: #212529 !important;
+  color: white;
+  border: none !important;
+}
+
+// per input di default
+#vola select,
+#vola-nazione select,
+#vola-citta select {
+  background-color: #212529;
+  height: 36px !important;
+  border: none;
+  color: rgb(136, 136, 136);
+  padding-left: 16px;
+  padding-bottom: 1px;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select2-container {
+  @media (max-width: 992px) {
+    width: 87% !important;
+  }
+}
+.input-group {
+  width: 65% !important;
+
+  @media (max-width: 992px) {
+    width: 87% !important;
+  }
+  @media (max-width: 414px) {
+    flex-wrap: nowrap;
+  }
+}
+
+div.d-flex.m-0 {
+  @media (max-width: 575px) {
+    flex-wrap: nowrap;
+    width: auto;
+  }
+}
+
+div.d-flex.m-0 input {
+  @media (max-width: 575px) {
+    flex: 1 1 auto;
+  }
+}
+div.d-flex.m-0 span {
+  @media (max-width: 575px) {
+    flex: 1 1 auto;
+  }
+}
+div.d-flex.m-0 div {
+  @media (max-width: 575px) {
+    flex: 1 1 auto;
+  }
+}
+
+.input-group-text {
+  background-color: #52585f;
+  border: none;
+  max-height: 38px;
+}
+
+.progress {
+  width: 45%;
+}
+
+#togglePassword,
+#toggleConfirmPassword {
+  cursor: pointer;
+}
+
+//classe per errore con icona
+.is-invalid {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 16 16'%3E%3Cpath d='M16 8A8 8 0 11.001 8 8 8 0 0116 8zM8.93 4.28a.75.75 0 10-1.86 0l-.7 5.25a.75.75 0 101.49.22l.7-5.25a.75.75 0 00-.63-.97zM8 12.5a1 1 0 100-2 1 1 0 000 2z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+}
+
+//classe per errore elemento nascosto di default
+.oscurato {
+  display: none;
+}
+
+//stile messaggio di successo
+#success_modal {
+  position: fixed; 
+  top: 50%;        
+  left: 50%;       
+  transform: translate(-50%, -50%) scale(0); 
+  transition: transform 0.3s ease-in-out;
+  max-width: 800px;
+  width: 90%;     
+  z-index: 1000;   
+  margin-top: 20px;
+  .modal-content {
+    max-height: 70vh;
+    overflow: scroll;
+    }
+  img{
+    height: 25px;
+  }
+
+  h3{
+    @media (max-width: 630px) {
+      font-size: 32px;
+      padding: 0;
+    }
+  }
+  
+}
+
+
+
+#success_modal.show {
+  transform: scale(1);
+}

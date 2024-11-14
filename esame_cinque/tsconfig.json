@@ -1,0 +1,12 @@
+
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noUnusedParameters": true,
+    "outDir": "./js",
+    "rootDir": "./ts",
+    "target": "es6",     
+    "module": "commonjs",
+    "strict": true
+  }
+}

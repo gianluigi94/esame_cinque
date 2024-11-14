@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scheda di un film</title>
+    <link rel="shortcut icon" href="locandine/code_logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_sass.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a667582781.js" crossorigin="anonymous"></script>
+    <script async src="js/script.js"></script>
+
+
+</head>
+
+<body class="vh-100">
+
+    <!-- NAV 
+    NAV 
+    NAV 
+    NAV 
+    NAV  -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark py-1 fixed-top d-flex flex-column align-items-start">
+        <div class="container-fluid d-flex m-0">
+            <div class="new_naw container-fluid d-flex flex-column flex-md-row m-0 pe-0 pe-md-3">
+            <!-- Sezione sinistra: Logo -->
+                <a class="navbar-brand" href="javascript:location.reload();" title="CodeX">
+                    <img src="locandine/code_logo.png" alt="logo" height="50" class="ms-1 d-none d-lg-block">
+                    <img src="locandine/code_logo.png" alt="logo" height="40" class="ms-1 d-lg-none">
+                </a>
+
+
+            <!-- Navbar per schermi grandi -->
+                <div class="collapse navbar-collapse d-none d-lg-flex">
+                    <ul class="navbar-nav ms-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="form.html" title="pagina di registrazione">Pagina iniziale</a>
+                        </li>
+                            <!-- voce menu scorrevole  -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" title="seleziona tipologia">
+                                Tipologia
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="javascript:location.reload();" title="tipologia">Film</a></li>
+                                <li><a class="dropdown-item" href="javascript:location.reload();" title="tipologia">Serie Tv</a></li>
+                            </ul>
+                        </li>
+                            <!-- voce menu scorrevole  -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown_two"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false" title="seleziona genere">
+                                Genere
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown_two">
+                                <li><a class="dropdown-item" href="javascript:location.reload();" title="genere">Animzione</a></li>
+                                <li><a class="dropdown-item" href="javascript:location.reload();" title="genere">Horror</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center ms-auto">
+                <!-- campo ricerca  -->
+                <form class="d-none d-md-flex align-items-center" role="search" title="ricerca">
+                    <input class="form-control form-control-sm me-2" type="search" name="search" placeholder="Cerca"
+                        aria-label="Campo di ricerca">
+                    <button class="btn_ricerca p-0" type="submit" aria-label="Cerca">
+                        <span><i class="fa-solid fa-search pe-5"></i></span>
+                    </button>
+                </form>
+
+                <!-- icona profilo  -->
+                <div class="dropdown me-3">
+                    <a class="nome_utente d-flex align-items-center text-white text-decoration-none dropdown-toggle m-0"
+                        href="javascript:location.reload();" role="button" id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="false"
+                        title="dati utente">
+                        <i class="fa-solid fa-user mt-1 pe-2 h5"></i>
+                        Nome Utente
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark border border-white"
+                        aria-labelledby="dropdownUser">
+                        <li><a class="dropdown-item" href="javascript:location.reload();" title="dati utente">Profilo</a></li>
+                        <li><a class="dropdown-item" href="javascript:location.reload();" title="dati utente">Pagamenti</a></li>
+                        <li>
+                            <hr class="dropdown-divider w-100 border-top border-white">
+                        </li>
+                        <li><a class="dropdown-item" href="javascript:location.reload();" title="logout">Esci</a></li>
+                    </ul>
+                </div>
+
+                <!-- menu hamburger  -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="offcanvas offcanvas-end bg-dark text-white d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Chiudi"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="form.html" title="pagina di registrazione">Pagina
+                                    iniziale</a>
+                            </li>
+                            <!-- voce menu scorrevole  -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="offcanvasDropdown_tre"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                    title="tipologie contenuti">
+                                    Tipologia
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="offcanvasDropdown_tre">
+                                    <li><a class="dropdown-item" href="javascript:location.reload();" title="tipologia">Film</a></li>
+                                    <li><a class="dropdown-item" href="javascript:location.reload();" title="tipologia">Serie Tv</a></li>
+                                </ul>
+                            </li>
+                            <!-- voce menu scorrevole  -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="offcanvasDropdown_four"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                    title="tipologie contenuti">
+                                    Genere
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="offcanvasDropdown_four">
+                                    <li><a class="dropdown-item" href="javascript:location.reload();" title="genere">Animzione</a></li>
+                                    <li><a class="dropdown-item" href="javascript:location.reload();" title="genere">Horror</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN  -->
+    <!-- MAIN  -->
+    <!-- MAIN  -->
+    <!-- MAIN  -->
+    <!-- MAIN  -->
+     
+    <main class="d-flex align-items-center justify-content-between pt-5 mt-5 position-relative">
+        <!-- Sezione Sinistra: Titolo e Testo -->
+        <div class="me-4 ms-4 align-self-start z-3">
+            <h1 class="text-white mt-5 pt-1 ms-4">Il libro delle avventure</h1>
+
+            <ul class="d-flex list-unstyled gap-4 ms-4 pt-1 mt-4">
+                <li>Durata: 87 min</li>
+                <li>Anno : 2001</li>
+            </ul>
+
+            <p class="ms-4 text-white">Quando Michael scopre un libro magico, viene trasportato in mondi fantastici a
+                cavallo del suo destriero Stellino. Un viaggio pieno di magia, amicizia ed emozioni che incanterà grandi
+                e piccini.</p>
+
+                <!-- tabella dati -->
+            <table class="ms-4">
+                <tr>
+                    <td>
+                        Regista
+                    </td>
+                    <td>
+                        Sean Decolavic
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Interpreti
+                    </td>
+                    <td>
+                        Mike Dafoe
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Genere
+                    </td>
+                    <td>
+                        Animazione
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Lingua
+                    </td>
+                    <td>
+                        Italiano
+                    </td>
+                </tr>
+                <tr>
+                    <td class="spazio">
+                        Sottotitoli
+                    </td>
+                    <td>
+                        Italiano, Inglese, Francese
+                    </td>
+                </tr>
+            </table>
+            <div class="d-flex button_a ms-4 mt-4 pt-2 gap-2">
+                <a href="#" class="btn btn-primary">Riproduci <i
+                        class="fa-regular fa-circle-play"></i></a>
+                <a href="#" class="btn btn-primary">Modifica <i class="fa-solid fa-pen-to-square"></i></a>
+                <a href="#" class="btn btn-primary">Elimina <i class="fa-solid fa-trash-can"></i></a>
+            </div>
+            <p class="ms-4 pt-1 mt-4 text-white">Facendo click su Riproduci accetti i nostri <a href="javascript:location.reload();">Termini di
+                    utilizzo</a> .</p>
+        </div>
+
+        <figure>
+            <!-- Immagine principale -->
+            <img src="locandine/locandina_24.png" alt="Descrizione immagine" class="img-fluid primary-img position-absolute">
+            <!-- Immagine secondaria nascosta inizialmente -->
+            <img src="locandine/dettaglio.png" alt="Descrizione immagine" class="img-fluid secondary-img position-absolute">
+            <span class="position-absolute z-4"></span>
+        </figure>
+
+        
+        
+    </main>
+
+    
+    <!-- SLIDER -->
+    <!-- SLIDER -->
+    <!-- SLIDER -->
+    <!-- SLIDER -->
+    <!-- SLIDER -->
+    <h3 class="h4 pt-5 mt-5 ms-4 ps-2 mb-4 text-white z-5"><span>Film </span>/ Animazione</h3>
+    <!-- carosello js  -->  
+    <div class="carosello_slide container-fluid p-5 pt-0 pb-5 mb-4 mb-lg-5 px-3 px-md-5 position-relative carousel-wrapper">
+        <div class="d-flex overflow-hidden image-slider">
+            <div class="d-flex flex-nowrap image-track img_gap">
+                <img src="locandine/locandina_24.png" alt="Thumb 1" title="Il libro delle avventure">
+                <img src="locandine/locandina_4.png" alt="Thumb 2" title="Il volto delle montagne">
+                <img src="locandine/locandina_12.png" alt="Thumb 3" title="The brave pups">
+                <img src="locandine/locandina_8.png" alt="Thumb 4" title="volo_333">
+                <img src="locandine/locandina_17.png" alt="Thumb 5" title="Fanterial">
+                <img src="locandine/locandina_21.png" alt="Thumb 6" title="Risate Pazzarelle">
+            </div>
+        </div>
+        <button class="carousel-control-prev carousel-control-prev_two opacity-100 prev-btn m-0 overflow-hidden"
+            type="button" title="prev">
+            <span aria-hidden="true" class="position-relative">
+                <i class="fa-solid fa-angle-left fs-3 text-black position-absolute opacity-25 z-0"></i>
+                <i class="fa-solid fa-angle-left fs-3 text-white position-relative z-1"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next carousel-control-next_two  opacity-100 next-btn m-0 overflow-hidden"
+            type="button" title="next">
+            <span aria-hidden="true" class="position-relative">
+                <i class="fa-solid fa-angle-right fs-3 text-black position-absolute opacity-25 z-0"></i>
+                <i class="fa-solid fa-angle-right fs-3 text-white position-relative z-1"></i>
+            </span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- CARD MODAL -->
+    <!-- CARD MODAL -->
+    <!-- CARD MODAL -->
+    <!-- CARD MODAL -->
+    <!-- CARD MODAL -->
+
+    <div class="card text-white rounded-0" id="dynamic-card">
+        <div class="d-flex justify-content-center pt-2">
+            <img id="card-image" src="locandine/locandina_23.png" class="card-img-top rounded-0 p-1" alt="Immagine">
+            <video id="card-video" src="locandine/filmato.mp4" title="trailer" class="card-img-top rounded-0 p-1" muted
+                loop></video>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Titolo di prova</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consectetur
+                necessitatibus debitis, omnis error possimus!</p>
+            <a href="#" class="btn btn-primary">Riproduci <i class="fa-regular fa-circle-play"></i></a>
+        </div>
+    </div>
+
+
+
+    <!-- FOTER
+    FOTER
+    FOTER
+    FOTER
+    FOTER
+    FOTER -->
+
+    <footer class="bg-dark text-secondary footer_long">
+        <div class="container-fluid">
+            <div class="row justify-content-center pt-4">
+                <div class="col-auto mx-md-5 mx-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-0"><a href="#faq" class="text-secondary text-decoration-none fs-6"
+                                title="link">F.A.Q.</a></li>
+                        <li class="mb-0"><a href="#privacy" class="text-secondary text-decoration-none"
+                                title="link">Privacy</a></li>
+                        <li class="mb-0"><a href="#cookies" class="text-secondary text-decoration-none"
+                                title="link">Informativa sui
+                                cookies</a></li>
+                        <li class="mb-0"><a href="#crediti" class="text-secondary text-decoration-none"
+                                title="link">Crediti</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto mx-md-5 mx-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-0"><a href="#faq" class="text-secondary text-decoration-none"
+                                title="link">F.A.Q.</a></li>
+                        <li class="mb-0"><a href="#link1" class="text-secondary text-decoration-none"
+                                title="link">Link1</a></li>
+                        <li class="mb-0"><a href="#link2" class="text-secondary text-decoration-none"
+                                title="link">Link2</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto mx-md-5 mx-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-0"><a href="#faq" class="text-secondary text-decoration-none"
+                                title="link">F.A.Q.</a></li>
+                        <li class="mb-0"><a href="#link1" class="text-secondary text-decoration-none"
+                                title="link">Link1</a></li>
+                        <li class="mb-0"><a href="#link2" class="text-secondary text-decoration-none"
+                                title="link">Link2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="mb-0 pb-2">Copyright &copy; 2021 - <span class="fw-bold">CO</span>DE</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

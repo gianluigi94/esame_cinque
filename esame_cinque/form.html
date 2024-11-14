@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form di registrazione</title>
+    <link rel="shortcut icon" href="locandine/code_logo.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_sass.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet">
+
+</head>
+
+<body class="vh-100">
+
+    <!-- NAV 
+    NAV 
+    NAV 
+    NAV 
+    NAV  -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark py-1 fixed-top">
+        <div class="container-fluid">
+            <!-- Sezione sinistra: Logo -->
+            <a class="navbar-brand" href="javascript:location.reload();" title="CodeX">
+                <img src="locandine/code_logo.png" alt="logo" height="50" class="ms-3 d-none d-lg-block">
+                <img src="locandine/code_logo.png" alt="logo" height="40" class="ms-3 d-lg-none">
+            </a>
+
+            <!-- Navbar per schermi grandi -->
+            <div class="collapse navbar-collapse d-none d-lg-flex">
+                <ul class="navbar-nav ms-2">
+                    <li class="nav-item">
+                        <!-- "Pagina iniziale" visibile solo su schermi grandi -->
+                        <a class="nav-link text-light" href="javascript:location.reload();"
+                            title="pagina di registrazione">Pagina iniziale</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Sezione destra: Bottone "Accedi" e menu hamburger -->
+            <div class="d-flex align-items-center ms-auto">
+                <a class="btn btn-primary btn-sm border-0 me-2" href="javascript:location.reload();" role="button"
+                    title="accedi al tuo profilo">Accedi</a>
+                <!-- Bottone visibile solo su schermi piccoli-->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!--Menu per schermi piccoli e medi -->
+            <div class="offcanvas offcanvas-end bg-dark text-white d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Chiudi"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="javascript:location.reload();"
+                                title="pagina di registrazione">Pagina iniziale</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- SFONDO  -->
+    <!-- SFONDO  -->
+    <!-- SFONDO  -->
+    <!-- SFONDO  -->
+
+    <div class="sfondo position-relative w-100 overflow-hidden">
+        <!-- per sfumatura -->
+        <span class="black_screen position-absolute start-0 w-100 h-100 z-3"></span>
+        <div class="scrolling position-absolute start-0 d-flex">
+            <img src="locandine/tavola-5.webp" alt="immagini film">
+            <img class="second_img" src="locandine/tavola-5.webp" alt="immagini film">
+        </div>
+    </div>
+
+    <!-- MODALE email-->
+    <!-- MODALE email-->
+    <!-- MODALE email-->
+    <!-- MODALE email-->
+    <!-- MODALE email-->
+    <div id="little_modal" class="modal show d-block z-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered position-relative">
+            <div class="modal-content text-white px-0 px-md-5 position-relative">
+                <span class="span_uno position-absolute top-0 start-0 h-100 bg-white opacity-50"></span>
+                <span class="span_due position-absolute top-0 end-0 h-100 bg-white opacity-50"></span>
+                <div class="modal-header border-0 p-0">
+                    <h2 class="modal-title w-100 h1 text-center mb-1 lh-1 pt-5 px-4 px-lg-0" id="exampleModalLabel">
+                        Un mondo di intrattenimento con un semplice click
+                    </h2>
+                </div>
+                <div class="modal-body pt-0 pb-2">
+                    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center pt-4">
+                        <p class="text-center pe-2 mb-0">Inserisci qui la tua e-mail ed iscriviti a </p>
+                        <img src="locandine/code_logo.png" alt="logo" title="codeX">
+                    </div>
+
+                    <form
+                        class="d-flex flex-column flex-lg-row justify-content-center pb-5 pt-3 col-12 col-md-10 col-lg-9 mx-auto"
+                        novalidate>
+
+                        <input type="email" name="email" id="email"
+                            class="form-control mb-2 mb-md-0 w-100 w-md-50 me-md-2 bg-dark border-0 text-white"
+                            placeholder="E-Mail" required>
+
+                        <button type="button" class="btn btn-primary border-0 px-5"
+                            id="toggleModals">Registrati</button>
+
+                    </form>
+                    <p class="text-danger p-0 oscurato opacity-100 valid_email">
+                        Inserisci una email valida
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALE form-->
+    <!-- MODALE form-->
+    <!-- MODALE form-->
+    <!-- MODALE form-->
+    <!-- MODALE form-->
+    <!-- MODALE form-->
+    <div id="big_modal" class="modal-dialog modal_form modal-dialog-centered position-absolute">
+        <span class="span_tre position-absolute top-0 start-0 h-100 bg-white opacity-50"></span>
+        <span class="span_quattro position-absolute top-0 end-0 h-100 bg-white opacity-50"></span>
+        <div class="modal-content text-white">
+            <div class="modal-header border-bottom-0 d-flex justify-content-lg-end justify-content-star">
+                <h3 class="modal-title h1">Inserisci i tuoi dati</h3>
+            </div>
+            <div class="modal-body">
+                <form novalidate class="d-flex flex-column" id="bigForm">
+                    <div class="px-1 px-sm-3">
+
+                        <label for="nome" class="form-label m-0">Nome*</label>
+                        <div class="d-flex m-0">
+                            <input type="text" class="form-control border-0 bg-dark text-white" id="nome" name="nome"
+                                placeholder="Nome" required>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente il tuo nome di battesimo</p>
+                        </div>
+                        <!-- Messaggi di errore -->
+                        <p class="text-danger oscurato opacity-100 required-error-nome">
+                            REQUIRED
+                            Questo campo è obbligatorio</p>
+                        <p class="text-danger oscurato opacity-100 length-error-nome">Lunghezza
+                            del
+                            campo non valida</p>
+                        <p class="text-danger oscurato opacity-100 character-error-nome">Non
+                            inserire numeri o caratteri speciali</p>
+
+                    </div>
+
+                    <div class="px-1 px-sm-3">
+
+                        <label for="cognome" class="form-label m-0">Cognome*</label>
+                        <div class="d-flex m-0">
+                            <input type="text" class="form-control bg-dark border-0 text-white" id="cognome"
+                                name="cognome" placeholder="Cognome" required>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente il tuo cognome</p>
+                        </div>
+                        <!-- Messaggi di errore -->
+                        <p class="text-danger oscurato opacity-100 required-error-cognome">
+                            REQUIRED
+                            Questo campo è obbligatorio</p>
+                        <p class="text-danger oscurato opacity-100 length-error-cognome">
+                            Lunghezza del
+                            campo non valida</p>
+                        <p class="text-danger oscurato opacity-100 character-error-cognome">Non
+                            inserire numeri o caratteri speciali</p>
+                    </div>
+
+
+
+
+
+                    <div class="d-flex flex-column w-100 px-1 px-sm-3" id="vola">
+                        <label for="sesso" class="form-label m-0">Sesso*</label>
+                        <div class="d-flex m-0">
+                            <select id="sesso" name="sesso" required>
+                                <option value="">Seleziona il sesso</option>
+                                <option value="M">Maschile</option>
+                                <option value="F">Femminile</option>
+                            </select>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente il tuo sesso</p>
+                        </div>
+                        <p class="text-danger sesso-required-error opacity-100 oscurato">
+                            REQUIRED
+                            Questo campo è obbligatorio</p>
+
+                    </div>
+
+                    <hr class="mt-3 text-white">
+
+                    <div class="px-1 px-sm-3">
+
+                        <label for="dataNascita" class="form-label m-0">Data di Nascita*</label>
+                        <div class="d-flex m-0">
+                            <input type="date" class="form-control bg-dark border-0 position-relative"
+                                name="dataNascita" id="dataNascita" required>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente la tua data di nascita</p>
+                        </div>
+                        <p class="text-danger required-error-dataNascita opacity-100 oscurato">
+                            REQUIRED
+                            Questo campo è obbligatorio</p>
+                        <p class="text-danger invalid-date-error opacity-100 oscurato">
+                            Inserisci una data valida (età tra 14 e 100 anni)</p>
+
+                    </div>
+
+
+                    <div class="d-flex flex-column w-100 px-1 px-sm-3" id="vola-nazione">
+                        <label for="nazione" class="form-label m-0">Nazione*</label>
+                        <div class="d-flex m-0">
+                            <select id="nazione" name="nazione" required>
+                                <option value="" disabled hidden>Seleziona la nazione</option>
+                                <option value="82" selected>Italia</option>
+                                <!-- NAZIONE DI DEFAULT + FILE ESTERNO  -->
+                            </select>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente la tua nazione</p>
+                        </div>
+                        <p class="text-danger nazione-required-error opacity-100 oscurato">
+                            REQUIRED Questo campo è obbligatorio</p>
+                    </div>
+
+                    <div class="d-flex flex-column w-100 px-1 px-sm-3" id="vola-citta">
+                        <label for="citta" class="form-label m-0">Città*</label>
+                        <div class="d-flex m-0">
+                            <select id="citta" name="citta" required>
+                                <option value="">Città</option>
+                                <option value="4720">Roma</option>
+                                <!-- città italiane file esterno-->
+                            </select>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente la città</p>
+                        </div>
+                        <p class="text-danger citta-required-error opacity-100 oscurato">
+                            REQUIRED Questo campo è obbligatorio</p>
+                    </div>
+
+
+                    <div class="px-1 px-sm-3" id="provincia-container">
+
+                        <label for="provincia" class="form-label m-0">Provincia*</label>
+                        <div class="d-flex m-0">
+                            <input type="text" class="form-control bg-dark border-0 text-white" name="provincia"
+                                placeholder="Provincia" id="provincia" required>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente la provincia</p>
+                        </div>
+
+                        <p class="text-danger oscurato opacity-100 required-error-provincia">
+                            REQUIRED
+                            Questo campo è obbligatorio</p>
+                        <p class="text-danger oscurato opacity-100 length-error-provincia">
+                            Lunghezza del
+                            campo non valida</p>
+                        <p class="text-danger oscurato opacity-100 character-error-provincia">
+                            Non
+                            inserire numeri o caratteri speciali</p>
+
+                    </div>
+
+                    <hr class="mt-3 text-white">
+
+
+                    <div class="px-1 px-sm-3">
+
+                        <label for="codiceFiscale" class="form-label m-0">Codice Fiscale*</label>
+                        <div class="d-flex m-0">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-dark border-0 text-white" name="codiceFiscale"
+                                    placeholder="Codice fiscale" id="codiceFiscale" required>
+                                <span class="input-group-text">
+                                    <!-- icona caricamento veloce -->
+                                    <img src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%2724%27%20height%3D%2724%27%20fill%3D%27white%27%20viewBox%3D%270%200%2024%2024%27%3E%3Crect%20x%3D%271%27%20y%3D%273%27%20width%3D%2722%27%20height%3D%2718%27%20rx%3D%272%27%20ry%3D%272%27%20fill%3D%27none%27%20stroke%3D%27%23fff%27%20stroke-width%3D%272%27/%3E%3Crect%20x%3D%274%27%20y%3D%276%27%20width%3D%278%27%20height%3D%278%27%20fill%3D%27%23fff%27%20rx%3D%271%27%20ry%3D%271%27/%3E%3Cline%20x1%3D%2714%27%20y1%3D%278%27%20x2%3D%2720%27%20y2%3D%278%27%20stroke%3D%27%23fff%27%20stroke-width%3D%271%27/%3E%3Cline%20x1%3D%2714%27%20y1%3D%2711%27%20x2%3D%2720%27%20y2%3D%2711%27%20stroke%3D%27%23fff%27%20stroke-width%3D%271%27/%3E%3Cline%20x1%3D%2714%27%20y1%3D%2714%27%20x2%3D%2720%27%20y2%3D%2714%27%20stroke%3D%27%23fff%27%20stroke-width%3D%271%27/%3E%3Cline%20x1%3D%2714%27%20y1%3D%2717%27%20x2%3D%2720%27%20y2%3D%2717%27%20stroke%3D%27%23fff%27%20stroke-width%3D%271%27/%3E%3C/svg%3E'
+                                        alt="Icona" width="20" height="20">
+                                </span>
+                            </div>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente il tuo codice fiscale</p>
+                        </div>
+                        <p class="text-danger oscurato required-error-codiceFiscale opacity-100">REQUIRED Questo campo è
+                            obbligatorio</p>
+                        <p class="text-danger oscurato incorrect-error-codiceFiscale opacity-100">Inserisci un codice
+                            fiscale valido</p>
+                    </div>
+
+                    <div class="px-1 px-sm-3">
+
+                        <label for="cittadinanza" class="form-label m-0">Cittadinanza*</label>
+                        <div class="d-flex m-0">
+                            <input type="text" name="cittadinanza" placeholder="Cittadinanza"
+                                class="form-control bg-dark border-0 text-white" id="cittadinanza" required>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente la cittadinanza</p>
+                        </div>
+                        <p class="text-danger oscurato opacity-100 required-error-cittadinanza">REQUIRED
+                            Questo campo è obbligatorio</p>
+                        <p class="text-danger oscurato opacity-100 length-error-cittadinanza">
+                            Lunghezza del
+                            campo non valida</p>
+                        <p class="text-danger oscurato opacity-100 character-error-cittadinanza">Non
+                            inserire numeri o caratteri speciali</p>
+                    </div>
+                    <hr class="mt-3 text-white">
+
+                    <!-- Campo Password -->
+                    <div class="px-1 px-sm-3">
+
+                        <label for="password" class="form-label m-0">Password*</label>
+                        <!-- Barretta per il livello di difficoltà della password -->
+
+                        <div class="progress mt-1 mb-3 oscurato">
+                            <div class="progress-bar" id="passwordStrengthBar" role="progressbar"
+                                aria-label="Livello di sicurezza della password" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                        <div class="d-flex m-0">
+                            <div class="input-group">
+                                <input type="password" class="form-control bg-dark border-0 text-white" name="password"
+                                    placeholder="Password" id="password" required>
+                                <span class="input-group-text">
+                                    <img src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%223%22/%3E%3Cpath%20d%3D%22M1%2012s4-7%2011-7%2011%207%2011%207-4%207-11%207S1%2012%201%2012z%22/%3E%3Cline%20x1%3D%221%22%20y1%3D%221%22%20x2%3D%2223%22%20y2%3D%2223%22%20stroke%3D%22white%22%20stroke-width%3D%222%22/%3E%3C/svg%3E'
+                                        alt="Mostra Password" width="20" height="20" id="togglePassword">
+                                </span>
+                            </div>
+                            <p class="m-0 d-none d-lg-block">Inserisci cortesemente la password</p>
+                        </div>
+
+
+
+                    </div>
+                    <!-- Messaggi di errore -->
+                    <p class="text-danger ms-3 oscurato length-error-password opacity-100">La
+                        password deve essere dagli 8 ai 32 caratteri</p>
+                    <p class="text-danger ms-3 oscurato character-error-password opacity-100">
+                        La
+                        password deve contenere almeno
+                        una lettera maiuscola, una minuscola, un numero e un carattere speciale</p>
+                    <p class="text-danger ms-3 required-error-password oscurato opacity-100">
+                        REQUIRED Questo campo è obbligatorio</p>
+
+
+                    <!-- conferma password  -->
+                    <div class="px-1 px-sm-3">
+
+                        <label for="confirmPassword" class="form-label m-0">Conferma Password*</label>
+                        <div class="d-flex m-0">
+                            <div class="input-group">
+                                <input type="password" class="form-control bg-dark border-0 text-white"
+                                    name="confirmPassword" placeholder="Conferma Password" id="confirmPassword"
+                                    required>
+                                <span class="input-group-text">
+                                    <img src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%223%22/%3E%3Cpath%20d%3D%22M1%2012s4-7%2011-7%2011%207%2011%207-4%207-11%207S1%2012%201%2012z%22/%3E%3Cline%20x1%3D%221%22%20y1%3D%221%22%20x2%3D%2223%22%20y2%3D%2223%22%20stroke%3D%22white%22%20stroke-width%3D%222%22/%3E%3C/svg%3E'
+                                        alt="Nascondi Password" width="20" height="20" id="toggleConfirmPassword">
+
+
+                                </span>
+                            </div>
+                            <p class="m-0 d-none d-lg-block">Conferma cortesemente la password</p>
+                        </div>
+
+                        <p class="text-danger oscurato opacity-100 required-error-confirmPassword">
+                            REQUIRED Questo campo è obbligatorio</p>
+                        <p class="text-danger oscurato opacity-100 password-mismatch-error">Le due
+                            password non coincidono</p>
+
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-start ms-3 mt-3">
+                        <button type="button" class="btn btn-secondary border-0 mb-3 mb-md-0" id="goBack">Torna
+                            indietro</button>
+                        <button type="submit" class="btn btn-primary border-0">Conferma e continua</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALE successo -->
+    <div id="success_modal" class="modal-dialog modal_form modal-dialog-centered position-absolute">
+        <span class="span_tre position-absolute top-0 start-0 h-100 bg-white opacity-50"></span>
+        <span class="span_quattro position-absolute top-0 end-0 h-100 bg-white opacity-50"></span>
+        <div class="modal-content text-white">
+            <div class="modal-header border-bottom-0">
+                <h3 class="modal-title h1">Grazie, <span id="user_name"></span>!</h3>
+            </div>
+            <div class="modal-body">
+                <p>La tua registrazione a <img src="locandine/code_logo.png" alt="logo" height="40"> è avvenuta con
+                    successo!</p>
+                <p>Ecco un riepilogo dei tuoi dati:</p>
+                <ul id="user_data_summary">
+                    <!-- I dati verranno inseriti qui CON JS -->
+                </ul>
+                <button type="button" class="btn btn-primary border-0" id="closeSuccessModal">Chiudi</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FOTER
+    FOTER
+    FOTER
+    FOTER
+    FOTER
+    FOTER -->
+
+    <footer class="bg-dark text-secondary" id="form_footer">
+        <div id="special_footer">
+            <span></span>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center pt-4">
+                <div class="col-auto mx-md-5 mx-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none fs-6" title="link">F.A.Q.</a></li>
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">Privacy</a></li>
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">Informativa sui
+                                cookies</a></li>
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">Crediti</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto mx-md-5 mx-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">F.A.Q.</a></li>
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">Link1</a></li>
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">Link2</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto mx-md-5 mx-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">F.A.Q.</a></li>
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">Link1</a></li>
+                        <li class="mb-0"><a href="javascript:location.reload();"
+                                class="text-secondary text-decoration-none" title="link">Link2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="mb-0 pb-2">Copyright &copy; 2021 - <span class="fw-bold">CO</span>DE</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/form_script.js"></script>
+    <script src="js/select_libreria.js"></script>
+
+
+</body>
+
+</html>

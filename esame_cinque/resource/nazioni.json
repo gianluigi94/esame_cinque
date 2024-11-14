@@ -1,0 +1,1586 @@
+[
+  {
+    "ID": 1,
+    "paese": "Afghanistan",
+    "continente": "AS",
+    "sig": "AF",
+    "sigla": "AFG",
+    "prefisso": "+93"
+  },
+  {
+    "ID": 2,
+    "paese": "Albania",
+    "continente": "EU",
+    "sig": "AL",
+    "sigla": "ALB",
+    "prefisso": "+355"
+  },
+  {
+    "ID": 3,
+    "paese": "Algeria",
+    "continente": "AF",
+    "sig": "DZ",
+    "sigla": "DZA",
+    "prefisso": "+213"
+  },
+  {
+    "ID": 4,
+    "paese": "Andorra",
+    "continente": "EU",
+    "sig": "AD",
+    "sigla": "AND",
+    "prefisso": "+376"
+  },
+  {
+    "ID": 5,
+    "paese": "Angola",
+    "continente": "AF",
+    "sig": "AO",
+    "sigla": "AGO",
+    "prefisso": "+244"
+  },
+  {
+    "ID": 6,
+    "paese": "Antigua and Barbuda",
+    "continente": "NA",
+    "sig": "AG",
+    "sigla": "ATG",
+    "prefisso": "+1-268"
+  },
+  {
+    "ID": 7,
+    "paese": "Argentina",
+    "continente": "SA",
+    "sig": "AR",
+    "sigla": "ARG",
+    "prefisso": "+54"
+  },
+  {
+    "ID": 8,
+    "paese": "Armenia",
+    "continente": "AS",
+    "sig": "AM",
+    "sigla": "ARM",
+    "prefisso": "+374"
+  },
+  {
+    "ID": 9,
+    "paese": "Australia",
+    "continente": "OC",
+    "sig": "AU",
+    "sigla": "AUS",
+    "prefisso": "+61"
+  },
+  {
+    "ID": 10,
+    "paese": "Austria",
+    "continente": "EU",
+    "sig": "AT",
+    "sigla": "AUT",
+    "prefisso": "+43"
+  },
+  {
+    "ID": 11,
+    "paese": "Azerbaijan",
+    "continente": "AS",
+    "sig": "AZ",
+    "sigla": "AZE",
+    "prefisso": "+994"
+  },
+  {
+    "ID": 12,
+    "paese": "Bahamas",
+    "continente": "NA",
+    "sig": "BS",
+    "sigla": "BHS",
+    "prefisso": "+1-242"
+  },
+  {
+    "ID": 13,
+    "paese": "Bahrain",
+    "continente": "AS",
+    "sig": "BH",
+    "sigla": "BHR",
+    "prefisso": "+973"
+  },
+  {
+    "ID": 14,
+    "paese": "Bangladesh",
+    "continente": "AS",
+    "sig": "BD",
+    "sigla": "BGD",
+    "prefisso": "+880"
+  },
+  {
+    "ID": 15,
+    "paese": "Barbados",
+    "continente": "NA",
+    "sig": "BB",
+    "sigla": "BRB",
+    "prefisso": "+1-246"
+  },
+  {
+    "ID": 16,
+    "paese": "Belarus",
+    "continente": "EU",
+    "sig": "BY",
+    "sigla": "BLR",
+    "prefisso": "+375"
+  },
+  {
+    "ID": 17,
+    "paese": "Belgium",
+    "continente": "EU",
+    "sig": "BE",
+    "sigla": "BEL",
+    "prefisso": "+32"
+  },
+  {
+    "ID": 18,
+    "paese": "Belize",
+    "continente": "NA",
+    "sig": "BZ",
+    "sigla": "BLZ",
+    "prefisso": "+501"
+  },
+  {
+    "ID": 19,
+    "paese": "Benin",
+    "continente": "AF",
+    "sig": "BJ",
+    "sigla": "BEN",
+    "prefisso": "+229"
+  },
+  {
+    "ID": 20,
+    "paese": "Bhutan",
+    "continente": "AS",
+    "sig": "BT",
+    "sigla": "BTN",
+    "prefisso": "+975"
+  },
+  {
+    "ID": 21,
+    "paese": "Bolivia",
+    "continente": "SA",
+    "sig": "BO",
+    "sigla": "BOL",
+    "prefisso": "+591"
+  },
+  {
+    "ID": 22,
+    "paese": "Bosnia and Herzegovina",
+    "continente": "EU",
+    "sig": "BA",
+    "sigla": "BIH",
+    "prefisso": "+387"
+  },
+  {
+    "ID": 23,
+    "paese": "Botswana",
+    "continente": "AF",
+    "sig": "BW",
+    "sigla": "BWA",
+    "prefisso": "+267"
+  },
+  {
+    "ID": 24,
+    "paese": "Brazil",
+    "continente": "SA",
+    "sig": "BR",
+    "sigla": "BRA",
+    "prefisso": "+55"
+  },
+  {
+    "ID": 25,
+    "paese": "Brunei",
+    "continente": "AS",
+    "sig": "BN",
+    "sigla": "BRN",
+    "prefisso": "+673"
+  },
+  {
+    "ID": 26,
+    "paese": "Bulgaria",
+    "continente": "EU",
+    "sig": "BG",
+    "sigla": "BGR",
+    "prefisso": "+359"
+  },
+  {
+    "ID": 27,
+    "paese": "Burkina Faso",
+    "continente": "AF",
+    "sig": "BF",
+    "sigla": "BFA",
+    "prefisso": "+226"
+  },
+  {
+    "ID": 28,
+    "paese": "Burundi",
+    "continente": "AF",
+    "sig": "BI",
+    "sigla": "BDI",
+    "prefisso": "+257"
+  },
+  {
+    "ID": 29,
+    "paese": "Cabo Verde",
+    "continente": "AF",
+    "sig": "CV",
+    "sigla": "CPV",
+    "prefisso": "+238"
+  },
+  {
+    "ID": 30,
+    "paese": "Cambodia",
+    "continente": "AS",
+    "sig": "KH",
+    "sigla": "KHM",
+    "prefisso": "+855"
+  },
+  {
+    "ID": 31,
+    "paese": "Cameroon",
+    "continente": "AF",
+    "sig": "CM",
+    "sigla": "CMR",
+    "prefisso": "+237"
+  },
+  {
+    "ID": 32,
+    "paese": "Canada",
+    "continente": "NA",
+    "sig": "CA",
+    "sigla": "CAN",
+    "prefisso": "+1"
+  },
+  {
+    "ID": 33,
+    "paese": "Central African Republic",
+    "continente": "AF",
+    "sig": "CF",
+    "sigla": "CAF",
+    "prefisso": "+236"
+  },
+  {
+    "ID": 34,
+    "paese": "Chad",
+    "continente": "AF",
+    "sig": "TD",
+    "sigla": "TCD",
+    "prefisso": "+235"
+  },
+  {
+    "ID": 35,
+    "paese": "Chile",
+    "continente": "SA",
+    "sig": "CL",
+    "sigla": "CHL",
+    "prefisso": "+56"
+  },
+  {
+    "ID": 36,
+    "paese": "China",
+    "continente": "AS",
+    "sig": "CN",
+    "sigla": "CHN",
+    "prefisso": "+86"
+  },
+  {
+    "ID": 37,
+    "paese": "Colombia",
+    "continente": "SA",
+    "sig": "CO",
+    "sigla": "COL",
+    "prefisso": "+57"
+  },
+  {
+    "ID": 38,
+    "paese": "Comoros",
+    "continente": "AF",
+    "sig": "KM",
+    "sigla": "COM",
+    "prefisso": "+269"
+  },
+  {
+    "ID": 39,
+    "paese": "Congo",
+    "continente": "AF",
+    "sig": "CG",
+    "sigla": "COG",
+    "prefisso": "+242"
+  },
+  {
+    "ID": 40,
+    "paese": "Congo",
+    "continente": "Democratic Republic of the",
+    "sig": "AF",
+    "sigla": "CD",
+    "prefisso": "COD"
+  },
+  {
+    "ID": 41,
+    "paese": "Costa Rica",
+    "continente": "NA",
+    "sig": "CR",
+    "sigla": "CRI",
+    "prefisso": "+506"
+  },
+  {
+    "ID": 42,
+    "paese": "Croatia",
+    "continente": "EU",
+    "sig": "HR",
+    "sigla": "HRV",
+    "prefisso": "+385"
+  },
+  {
+    "ID": 43,
+    "paese": "Cuba",
+    "continente": "NA",
+    "sig": "CU",
+    "sigla": "CUB",
+    "prefisso": "+53"
+  },
+  {
+    "ID": 44,
+    "paese": "Cyprus",
+    "continente": "EU",
+    "sig": "CY",
+    "sigla": "CYP",
+    "prefisso": "+357"
+  },
+  {
+    "ID": 45,
+    "paese": "Czech Republic",
+    "continente": "EU",
+    "sig": "CZ",
+    "sigla": "CZE",
+    "prefisso": "+420"
+  },
+  {
+    "ID": 46,
+    "paese": "Denmark",
+    "continente": "EU",
+    "sig": "DK",
+    "sigla": "DNK",
+    "prefisso": "+45"
+  },
+  {
+    "ID": 47,
+    "paese": "Djibouti",
+    "continente": "AF",
+    "sig": "DJ",
+    "sigla": "DJI",
+    "prefisso": "+253"
+  },
+  {
+    "ID": 48,
+    "paese": "Dominica",
+    "continente": "NA",
+    "sig": "DM",
+    "sigla": "DMA",
+    "prefisso": "+1-767"
+  },
+  {
+    "ID": 49,
+    "paese": "Dominican Republic",
+    "continente": "NA",
+    "sig": "DO",
+    "sigla": "DOM",
+    "prefisso": "+1-809"
+  },
+  {
+    "ID": 50,
+    "paese": "Ecuador",
+    "continente": "SA",
+    "sig": "EC",
+    "sigla": "ECU",
+    "prefisso": "+593"
+  },
+  {
+    "ID": 51,
+    "paese": "Egypt",
+    "continente": "AF",
+    "sig": "EG",
+    "sigla": "EGY",
+    "prefisso": "+20"
+  },
+  {
+    "ID": 52,
+    "paese": "El Salvador",
+    "continente": "NA",
+    "sig": "SV",
+    "sigla": "SLV",
+    "prefisso": "+503"
+  },
+  {
+    "ID": 53,
+    "paese": "Equatorial Guinea",
+    "continente": "AF",
+    "sig": "GQ",
+    "sigla": "GNQ",
+    "prefisso": "+240"
+  },
+  {
+    "ID": 54,
+    "paese": "Eritrea",
+    "continente": "AF",
+    "sig": "ER",
+    "sigla": "ERI",
+    "prefisso": "+291"
+  },
+  {
+    "ID": 55,
+    "paese": "Estonia",
+    "continente": "EU",
+    "sig": "EE",
+    "sigla": "EST",
+    "prefisso": "+372"
+  },
+  {
+    "ID": 56,
+    "paese": "Eswatini",
+    "continente": "AF",
+    "sig": "SZ",
+    "sigla": "SWZ",
+    "prefisso": "+268"
+  },
+  {
+    "ID": 57,
+    "paese": "Ethiopia",
+    "continente": "AF",
+    "sig": "ET",
+    "sigla": "ETH",
+    "prefisso": "+251"
+  },
+  {
+    "ID": 58,
+    "paese": "Fiji",
+    "continente": "OC",
+    "sig": "FJ",
+    "sigla": "FJI",
+    "prefisso": "+679"
+  },
+  {
+    "ID": 59,
+    "paese": "Finland",
+    "continente": "EU",
+    "sig": "FI",
+    "sigla": "FIN",
+    "prefisso": "+358"
+  },
+  {
+    "ID": 60,
+    "paese": "France",
+    "continente": "EU",
+    "sig": "FR",
+    "sigla": "FRA",
+    "prefisso": "+33"
+  },
+  {
+    "ID": 61,
+    "paese": "Gabon",
+    "continente": "AF",
+    "sig": "GA",
+    "sigla": "GAB",
+    "prefisso": "+241"
+  },
+  {
+    "ID": 62,
+    "paese": "Gambia",
+    "continente": "AF",
+    "sig": "GM",
+    "sigla": "GMB",
+    "prefisso": "+220"
+  },
+  {
+    "ID": 63,
+    "paese": "Georgia",
+    "continente": "AS",
+    "sig": "GE",
+    "sigla": "GEO",
+    "prefisso": "+995"
+  },
+  {
+    "ID": 64,
+    "paese": "Germany",
+    "continente": "EU",
+    "sig": "DE",
+    "sigla": "DEU",
+    "prefisso": "+49"
+  },
+  {
+    "ID": 65,
+    "paese": "Ghana",
+    "continente": "AF",
+    "sig": "GH",
+    "sigla": "GHA",
+    "prefisso": "+233"
+  },
+  {
+    "ID": 66,
+    "paese": "Greece",
+    "continente": "EU",
+    "sig": "GR",
+    "sigla": "GRC",
+    "prefisso": "+30"
+  },
+  {
+    "ID": 67,
+    "paese": "Grenada",
+    "continente": "NA",
+    "sig": "GD",
+    "sigla": "GRD",
+    "prefisso": "+1-473"
+  },
+  {
+    "ID": 68,
+    "paese": "Guatemala",
+    "continente": "NA",
+    "sig": "GT",
+    "sigla": "GTM",
+    "prefisso": "+502"
+  },
+  {
+    "ID": 69,
+    "paese": "Guinea",
+    "continente": "AF",
+    "sig": "GN",
+    "sigla": "GIN",
+    "prefisso": "+224"
+  },
+  {
+    "ID": 70,
+    "paese": "Guinea-Bissau",
+    "continente": "AF",
+    "sig": "GW",
+    "sigla": "GNB",
+    "prefisso": "+245"
+  },
+  {
+    "ID": 71,
+    "paese": "Guyana",
+    "continente": "SA",
+    "sig": "GY",
+    "sigla": "GUY",
+    "prefisso": "+592"
+  },
+  {
+    "ID": 72,
+    "paese": "Haiti",
+    "continente": "NA",
+    "sig": "HT",
+    "sigla": "HTI",
+    "prefisso": "+509"
+  },
+  {
+    "ID": 73,
+    "paese": "Honduras",
+    "continente": "NA",
+    "sig": "HN",
+    "sigla": "HND",
+    "prefisso": "+504"
+  },
+  {
+    "ID": 74,
+    "paese": "Hungary",
+    "continente": "EU",
+    "sig": "HU",
+    "sigla": "HUN",
+    "prefisso": "+36"
+  },
+  {
+    "ID": 75,
+    "paese": "Iceland",
+    "continente": "EU",
+    "sig": "IS",
+    "sigla": "ISL",
+    "prefisso": "+354"
+  },
+  {
+    "ID": 76,
+    "paese": "India",
+    "continente": "AS",
+    "sig": "IN",
+    "sigla": "IND",
+    "prefisso": "+91"
+  },
+  {
+    "ID": 77,
+    "paese": "Indonesia",
+    "continente": "AS",
+    "sig": "ID",
+    "sigla": "IDN",
+    "prefisso": "+62"
+  },
+  {
+    "ID": 78,
+    "paese": "Iran",
+    "continente": "AS",
+    "sig": "IR",
+    "sigla": "IRN",
+    "prefisso": "+98"
+  },
+  {
+    "ID": 79,
+    "paese": "Iraq",
+    "continente": "AS",
+    "sig": "IQ",
+    "sigla": "IRQ",
+    "prefisso": "+964"
+  },
+  {
+    "ID": 80,
+    "paese": "Ireland",
+    "continente": "EU",
+    "sig": "IE",
+    "sigla": "IRL",
+    "prefisso": "+353"
+  },
+  {
+    "ID": 81,
+    "paese": "Israel",
+    "continente": "AS",
+    "sig": "IL",
+    "sigla": "ISR",
+    "prefisso": "+972"
+  },
+  {
+    "ID": 82,
+    "paese": "Italia",
+    "continente": "EU",
+    "sig": "IT",
+    "sigla": "ITA",
+    "prefisso": "+39"
+  },
+  {
+    "ID": 83,
+    "paese": "Ivory Coast",
+    "continente": "AF",
+    "sig": "CI",
+    "sigla": "CIV",
+    "prefisso": "+225"
+  },
+  {
+    "ID": 84,
+    "paese": "Jamaica",
+    "continente": "NA",
+    "sig": "JM",
+    "sigla": "JAM",
+    "prefisso": "+1-876"
+  },
+  {
+    "ID": 85,
+    "paese": "Japan",
+    "continente": "AS",
+    "sig": "JP",
+    "sigla": "JPN",
+    "prefisso": "+81"
+  },
+  {
+    "ID": 86,
+    "paese": "Jordan",
+    "continente": "AS",
+    "sig": "JO",
+    "sigla": "JOR",
+    "prefisso": "+962"
+  },
+  {
+    "ID": 87,
+    "paese": "Kazakhstan",
+    "continente": "AS",
+    "sig": "KZ",
+    "sigla": "KAZ",
+    "prefisso": "+7"
+  },
+  {
+    "ID": 88,
+    "paese": "Kenya",
+    "continente": "AF",
+    "sig": "KE",
+    "sigla": "KEN",
+    "prefisso": "+254"
+  },
+  {
+    "ID": 89,
+    "paese": "Kiribati",
+    "continente": "OC",
+    "sig": "KI",
+    "sigla": "KIR",
+    "prefisso": "+686"
+  },
+  {
+    "ID": 90,
+    "paese": "Kosovo",
+    "continente": "EU",
+    "sig": "XK",
+    "sigla": "UNK",
+    "prefisso": "+383"
+  },
+  {
+    "ID": 91,
+    "paese": "Kuwait",
+    "continente": "AS",
+    "sig": "KW",
+    "sigla": "KWT",
+    "prefisso": "+965"
+  },
+  {
+    "ID": 92,
+    "paese": "Kyrgyzstan",
+    "continente": "AS",
+    "sig": "KG",
+    "sigla": "KGZ",
+    "prefisso": "+996"
+  },
+  {
+    "ID": 93,
+    "paese": "Laos",
+    "continente": "AS",
+    "sig": "LA",
+    "sigla": "LAO",
+    "prefisso": "+856"
+  },
+  {
+    "ID": 94,
+    "paese": "Latvia",
+    "continente": "EU",
+    "sig": "LV",
+    "sigla": "LVA",
+    "prefisso": "+371"
+  },
+  {
+    "ID": 95,
+    "paese": "Lebanon",
+    "continente": "AS",
+    "sig": "LB",
+    "sigla": "LBN",
+    "prefisso": "+961"
+  },
+  {
+    "ID": 96,
+    "paese": "Lesotho",
+    "continente": "AF",
+    "sig": "LS",
+    "sigla": "LSO",
+    "prefisso": "+266"
+  },
+  {
+    "ID": 97,
+    "paese": "Liberia",
+    "continente": "AF",
+    "sig": "LR",
+    "sigla": "LBR",
+    "prefisso": "+231"
+  },
+  {
+    "ID": 98,
+    "paese": "Libya",
+    "continente": "AF",
+    "sig": "LY",
+    "sigla": "LBY",
+    "prefisso": "+218"
+  },
+  {
+    "ID": 99,
+    "paese": "Liechtenstein",
+    "continente": "EU",
+    "sig": "LI",
+    "sigla": "LIE",
+    "prefisso": "+423"
+  },
+  {
+    "ID": 100,
+    "paese": "Lithuania",
+    "continente": "EU",
+    "sig": "LT",
+    "sigla": "LTU",
+    "prefisso": "+370"
+  },
+  {
+    "ID": 101,
+    "paese": "Luxembourg",
+    "continente": "EU",
+    "sig": "LU",
+    "sigla": "LUX",
+    "prefisso": "+352"
+  },
+  {
+    "ID": 102,
+    "paese": "Madagascar",
+    "continente": "AF",
+    "sig": "MG",
+    "sigla": "MDG",
+    "prefisso": "+261"
+  },
+  {
+    "ID": 103,
+    "paese": "Malawi",
+    "continente": "AF",
+    "sig": "MW",
+    "sigla": "MWI",
+    "prefisso": "+265"
+  },
+  {
+    "ID": 104,
+    "paese": "Malaysia",
+    "continente": "AS",
+    "sig": "MY",
+    "sigla": "MYS",
+    "prefisso": "+60"
+  },
+  {
+    "ID": 105,
+    "paese": "Maldives",
+    "continente": "AS",
+    "sig": "MV",
+    "sigla": "MDV",
+    "prefisso": "+960"
+  },
+  {
+    "ID": 106,
+    "paese": "Mali",
+    "continente": "AF",
+    "sig": "ML",
+    "sigla": "MLI",
+    "prefisso": "+223"
+  },
+  {
+    "ID": 107,
+    "paese": "Malta",
+    "continente": "EU",
+    "sig": "MT",
+    "sigla": "MLT",
+    "prefisso": "+356"
+  },
+  {
+    "ID": 108,
+    "paese": "Marshall Islands",
+    "continente": "OC",
+    "sig": "MH",
+    "sigla": "MHL",
+    "prefisso": "+692"
+  },
+  {
+    "ID": 109,
+    "paese": "Mauritania",
+    "continente": "AF",
+    "sig": "MR",
+    "sigla": "MRT",
+    "prefisso": "+222"
+  },
+  {
+    "ID": 110,
+    "paese": "Mauritius",
+    "continente": "AF",
+    "sig": "MU",
+    "sigla": "MUS",
+    "prefisso": "+230"
+  },
+  {
+    "ID": 111,
+    "paese": "Mexico",
+    "continente": "NA",
+    "sig": "MX",
+    "sigla": "MEX",
+    "prefisso": "+52"
+  },
+  {
+    "ID": 112,
+    "paese": "Micronesia",
+    "continente": "OC",
+    "sig": "FM",
+    "sigla": "FSM",
+    "prefisso": "+691"
+  },
+  {
+    "ID": 113,
+    "paese": "Moldova",
+    "continente": "EU",
+    "sig": "MD",
+    "sigla": "MDA",
+    "prefisso": "+373"
+  },
+  {
+    "ID": 114,
+    "paese": "Monaco",
+    "continente": "EU",
+    "sig": "MC",
+    "sigla": "MCO",
+    "prefisso": "+377"
+  },
+  {
+    "ID": 115,
+    "paese": "Mongolia",
+    "continente": "AS",
+    "sig": "MN",
+    "sigla": "MNG",
+    "prefisso": "+976"
+  },
+  {
+    "ID": 116,
+    "paese": "Montenegro",
+    "continente": "EU",
+    "sig": "ME",
+    "sigla": "MNE",
+    "prefisso": "+382"
+  },
+  {
+    "ID": 117,
+    "paese": "Morocco",
+    "continente": "AF",
+    "sig": "MA",
+    "sigla": "MAR",
+    "prefisso": "+212"
+  },
+  {
+    "ID": 118,
+    "paese": "Mozambique",
+    "continente": "AF",
+    "sig": "MZ",
+    "sigla": "MOZ",
+    "prefisso": "+258"
+  },
+  {
+    "ID": 119,
+    "paese": "Myanmar",
+    "continente": "AS",
+    "sig": "MM",
+    "sigla": "MMR",
+    "prefisso": "+95"
+  },
+  {
+    "ID": 120,
+    "paese": "Namibia",
+    "continente": "AF",
+    "sig": "NA",
+    "sigla": "NAM",
+    "prefisso": "+264"
+  },
+  {
+    "ID": 121,
+    "paese": "Nauru",
+    "continente": "OC",
+    "sig": "NR",
+    "sigla": "NRU",
+    "prefisso": "+674"
+  },
+  {
+    "ID": 122,
+    "paese": "Nepal",
+    "continente": "AS",
+    "sig": "NP",
+    "sigla": "NPL",
+    "prefisso": "+977"
+  },
+  {
+    "ID": 123,
+    "paese": "Netherlands",
+    "continente": "EU",
+    "sig": "NL",
+    "sigla": "NLD",
+    "prefisso": "+31"
+  },
+  {
+    "ID": 124,
+    "paese": "New Zealand",
+    "continente": "OC",
+    "sig": "NZ",
+    "sigla": "NZL",
+    "prefisso": "+64"
+  },
+  {
+    "ID": 125,
+    "paese": "Nicaragua",
+    "continente": "NA",
+    "sig": "NI",
+    "sigla": "NIC",
+    "prefisso": "+505"
+  },
+  {
+    "ID": 126,
+    "paese": "Niger",
+    "continente": "AF",
+    "sig": "NE",
+    "sigla": "NER",
+    "prefisso": "+227"
+  },
+  {
+    "ID": 127,
+    "paese": "Nigeria",
+    "continente": "AF",
+    "sig": "NG",
+    "sigla": "NGA",
+    "prefisso": "+234"
+  },
+  {
+    "ID": 128,
+    "paese": "North Korea",
+    "continente": "AS",
+    "sig": "KP",
+    "sigla": "PRK",
+    "prefisso": "+850"
+  },
+  {
+    "ID": 129,
+    "paese": "North Macedonia",
+    "continente": "EU",
+    "sig": "MK",
+    "sigla": "MKD",
+    "prefisso": "+389"
+  },
+  {
+    "ID": 130,
+    "paese": "Norway",
+    "continente": "EU",
+    "sig": "NO",
+    "sigla": "NOR",
+    "prefisso": "+47"
+  },
+  {
+    "ID": 131,
+    "paese": "Oman",
+    "continente": "AS",
+    "sig": "OM",
+    "sigla": "OMN",
+    "prefisso": "+968"
+  },
+  {
+    "ID": 132,
+    "paese": "Pakistan",
+    "continente": "AS",
+    "sig": "PK",
+    "sigla": "PAK",
+    "prefisso": "+92"
+  },
+  {
+    "ID": 133,
+    "paese": "Palau",
+    "continente": "OC",
+    "sig": "PW",
+    "sigla": "PLW",
+    "prefisso": "+680"
+  },
+  {
+    "ID": 134,
+    "paese": "Palestine",
+    "continente": "AS",
+    "sig": "PS",
+    "sigla": "PSE",
+    "prefisso": "+970"
+  },
+  {
+    "ID": 135,
+    "paese": "Panama",
+    "continente": "NA",
+    "sig": "PA",
+    "sigla": "PAN",
+    "prefisso": "+507"
+  },
+  {
+    "ID": 136,
+    "paese": "Papua New Guinea",
+    "continente": "OC",
+    "sig": "PG",
+    "sigla": "PNG",
+    "prefisso": "+675"
+  },
+  {
+    "ID": 137,
+    "paese": "Paraguay",
+    "continente": "SA",
+    "sig": "PY",
+    "sigla": "PRY",
+    "prefisso": "+595"
+  },
+  {
+    "ID": 138,
+    "paese": "Peru",
+    "continente": "SA",
+    "sig": "PE",
+    "sigla": "PER",
+    "prefisso": "+51"
+  },
+  {
+    "ID": 139,
+    "paese": "Philippines",
+    "continente": "AS",
+    "sig": "PH",
+    "sigla": "PHL",
+    "prefisso": "+63"
+  },
+  {
+    "ID": 140,
+    "paese": "Poland",
+    "continente": "EU",
+    "sig": "PL",
+    "sigla": "POL",
+    "prefisso": "+48"
+  },
+  {
+    "ID": 141,
+    "paese": "Portugal",
+    "continente": "EU",
+    "sig": "PT",
+    "sigla": "PRT",
+    "prefisso": "+351"
+  },
+  {
+    "ID": 142,
+    "paese": "Qatar",
+    "continente": "AS",
+    "sig": "QA",
+    "sigla": "QAT",
+    "prefisso": "+974"
+  },
+  {
+    "ID": 143,
+    "paese": "Republic of the Congo",
+    "continente": "AF",
+    "sig": "CG",
+    "sigla": "COG",
+    "prefisso": "+242"
+  },
+  {
+    "ID": 144,
+    "paese": "Romania",
+    "continente": "EU",
+    "sig": "RO",
+    "sigla": "ROU",
+    "prefisso": "+40"
+  },
+  {
+    "ID": 145,
+    "paese": "Russia",
+    "continente": "EU",
+    "sig": "RU",
+    "sigla": "RUS",
+    "prefisso": "+7"
+  },
+  {
+    "ID": 146,
+    "paese": "Rwanda",
+    "continente": "AF",
+    "sig": "RW",
+    "sigla": "RWA",
+    "prefisso": "+250"
+  },
+  {
+    "ID": 147,
+    "paese": "Saint Kitts and Nevis",
+    "continente": "NA",
+    "sig": "KN",
+    "sigla": "KNA",
+    "prefisso": "+1-869"
+  },
+  {
+    "ID": 148,
+    "paese": "Saint Lucia",
+    "continente": "NA",
+    "sig": "LC",
+    "sigla": "LCA",
+    "prefisso": "+1-758"
+  },
+  {
+    "ID": 149,
+    "paese": "Saint Vincent and the Grenadines",
+    "continente": "NA",
+    "sig": "VC",
+    "sigla": "VCT",
+    "prefisso": "+1-784"
+  },
+  {
+    "ID": 150,
+    "paese": "Samoa",
+    "continente": "OC",
+    "sig": "WS",
+    "sigla": "WSM",
+    "prefisso": "+685"
+  },
+  {
+    "ID": 151,
+    "paese": "San Marino",
+    "continente": "EU",
+    "sig": "SM",
+    "sigla": "SMR",
+    "prefisso": "+378"
+  },
+  {
+    "ID": 152,
+    "paese": "Sao Tome and Principe",
+    "continente": "AF",
+    "sig": "ST",
+    "sigla": "STP",
+    "prefisso": "+239"
+  },
+  {
+    "ID": 153,
+    "paese": "Saudi Arabia",
+    "continente": "AS",
+    "sig": "SA",
+    "sigla": "SAU",
+    "prefisso": "+966"
+  },
+  {
+    "ID": 154,
+    "paese": "Senegal",
+    "continente": "AF",
+    "sig": "SN",
+    "sigla": "SEN",
+    "prefisso": "+221"
+  },
+  {
+    "ID": 155,
+    "paese": "Serbia",
+    "continente": "EU",
+    "sig": "RS",
+    "sigla": "SRB",
+    "prefisso": "+381"
+  },
+  {
+    "ID": 156,
+    "paese": "Seychelles",
+    "continente": "AF",
+    "sig": "SC",
+    "sigla": "SYC",
+    "prefisso": "+248"
+  },
+  {
+    "ID": 157,
+    "paese": "Sierra Leone",
+    "continente": "AF",
+    "sig": "SL",
+    "sigla": "SLE",
+    "prefisso": "+232"
+  },
+  {
+    "ID": 158,
+    "paese": "Singapore",
+    "continente": "AS",
+    "sig": "SG",
+    "sigla": "SGP",
+    "prefisso": "+65"
+  },
+  {
+    "ID": 159,
+    "paese": "Slovakia",
+    "continente": "EU",
+    "sig": "SK",
+    "sigla": "SVK",
+    "prefisso": "+421"
+  },
+  {
+    "ID": 160,
+    "paese": "Slovenia",
+    "continente": "EU",
+    "sig": "SI",
+    "sigla": "SVN",
+    "prefisso": "+386"
+  },
+  {
+    "ID": 161,
+    "paese": "Solomon Islands",
+    "continente": "OC",
+    "sig": "SB",
+    "sigla": "SLB",
+    "prefisso": "+677"
+  },
+  {
+    "ID": 162,
+    "paese": "Somalia",
+    "continente": "AF",
+    "sig": "SO",
+    "sigla": "SOM",
+    "prefisso": "+252"
+  },
+  {
+    "ID": 163,
+    "paese": "South Africa",
+    "continente": "AF",
+    "sig": "ZA",
+    "sigla": "ZAF",
+    "prefisso": "+27"
+  },
+  {
+    "ID": 164,
+    "paese": "South Korea",
+    "continente": "AS",
+    "sig": "KR",
+    "sigla": "KOR",
+    "prefisso": "+82"
+  },
+  {
+    "ID": 165,
+    "paese": "South Sudan",
+    "continente": "AF",
+    "sig": "SS",
+    "sigla": "SSD",
+    "prefisso": "+211"
+  },
+  {
+    "ID": 166,
+    "paese": "Spain",
+    "continente": "EU",
+    "sig": "ES",
+    "sigla": "ESP",
+    "prefisso": "+34"
+  },
+  {
+    "ID": 167,
+    "paese": "Sri Lanka",
+    "continente": "AS",
+    "sig": "LK",
+    "sigla": "LKA",
+    "prefisso": "+94"
+  },
+  {
+    "ID": 168,
+    "paese": "Sudan",
+    "continente": "AF",
+    "sig": "SD",
+    "sigla": "SDN",
+    "prefisso": "+249"
+  },
+  {
+    "ID": 169,
+    "paese": "Suriname",
+    "continente": "SA",
+    "sig": "SR",
+    "sigla": "SUR",
+    "prefisso": "+597"
+  },
+  {
+    "ID": 170,
+    "paese": "Sweden",
+    "continente": "EU",
+    "sig": "SE",
+    "sigla": "SWE",
+    "prefisso": "+46"
+  },
+  {
+    "ID": 171,
+    "paese": "Switzerland",
+    "continente": "EU",
+    "sig": "CH",
+    "sigla": "CHE",
+    "prefisso": "+41"
+  },
+  {
+    "ID": 172,
+    "paese": "Syria",
+    "continente": "AS",
+    "sig": "SY",
+    "sigla": "SYR",
+    "prefisso": "+963"
+  },
+  {
+    "ID": 173,
+    "paese": "Taiwan",
+    "continente": "AS",
+    "sig": "TW",
+    "sigla": "TWN",
+    "prefisso": "+886"
+  },
+  {
+    "ID": 174,
+    "paese": "Tajikistan",
+    "continente": "AS",
+    "sig": "TJ",
+    "sigla": "TJK",
+    "prefisso": "+992"
+  },
+  {
+    "ID": 175,
+    "paese": "Tanzania",
+    "continente": "AF",
+    "sig": "TZ",
+    "sigla": "TZA",
+    "prefisso": "+255"
+  },
+  {
+    "ID": 176,
+    "paese": "Thailand",
+    "continente": "AS",
+    "sig": "TH",
+    "sigla": "THA",
+    "prefisso": "+66"
+  },
+  {
+    "ID": 177,
+    "paese": "Timor-Leste",
+    "continente": "AS",
+    "sig": "TL",
+    "sigla": "TLS",
+    "prefisso": "+670"
+  },
+  {
+    "ID": 178,
+    "paese": "Togo",
+    "continente": "AF",
+    "sig": "TG",
+    "sigla": "TGO",
+    "prefisso": "+228"
+  },
+  {
+    "ID": 179,
+    "paese": "Tonga",
+    "continente": "OC",
+    "sig": "TO",
+    "sigla": "TON",
+    "prefisso": "+676"
+  },
+  {
+    "ID": 180,
+    "paese": "Trinidad and Tobago",
+    "continente": "NA",
+    "sig": "TT",
+    "sigla": "TTO",
+    "prefisso": "+1-868"
+  },
+  {
+    "ID": 181,
+    "paese": "Tunisia",
+    "continente": "AF",
+    "sig": "TN",
+    "sigla": "TUN",
+    "prefisso": "+216"
+  },
+  {
+    "ID": 182,
+    "paese": "Turkey",
+    "continente": "AS",
+    "sig": "TR",
+    "sigla": "TUR",
+    "prefisso": "+90"
+  },
+  {
+    "ID": 183,
+    "paese": "Turkmenistan",
+    "continente": "AS",
+    "sig": "TM",
+    "sigla": "TKM",
+    "prefisso": "+993"
+  },
+  {
+    "ID": 184,
+    "paese": "Tuvalu",
+    "continente": "OC",
+    "sig": "TV",
+    "sigla": "TUV",
+    "prefisso": "+688"
+  },
+  {
+    "ID": 185,
+    "paese": "Uganda",
+    "continente": "AF",
+    "sig": "UG",
+    "sigla": "UGA",
+    "prefisso": "+256"
+  },
+  {
+    "ID": 186,
+    "paese": "Ukraine",
+    "continente": "EU",
+    "sig": "UA",
+    "sigla": "UKR",
+    "prefisso": "+380"
+  },
+  {
+    "ID": 187,
+    "paese": "United Arab Emirates",
+    "continente": "AS",
+    "sig": "AE",
+    "sigla": "ARE",
+    "prefisso": "+971"
+  },
+  {
+    "ID": 188,
+    "paese": "United Kingdom",
+    "continente": "EU",
+    "sig": "GB",
+    "sigla": "GBR",
+    "prefisso": "+44"
+  },
+  {
+    "ID": 189,
+    "paese": "United States",
+    "continente": "NA",
+    "sig": "US",
+    "sigla": "USA",
+    "prefisso": "+1"
+  },
+  {
+    "ID": 190,
+    "paese": "Uruguay",
+    "continente": "SA",
+    "sig": "UY",
+    "sigla": "URY",
+    "prefisso": "+598"
+  },
+  {
+    "ID": 191,
+    "paese": "Uzbekistan",
+    "continente": "AS",
+    "sig": "UZ",
+    "sigla": "UZB",
+    "prefisso": "+998"
+  },
+  {
+    "ID": 192,
+    "paese": "Vanuatu",
+    "continente": "OC",
+    "sig": "VU",
+    "sigla": "VUT",
+    "prefisso": "+678"
+  },
+  {
+    "ID": 193,
+    "paese": "Vatican City",
+    "continente": "EU",
+    "sig": "VA",
+    "sigla": "VAT",
+    "prefisso": "+379"
+  },
+  {
+    "ID": 194,
+    "paese": "Venezuela",
+    "continente": "SA",
+    "sig": "VE",
+    "sigla": "VEN",
+    "prefisso": "+58"
+  },
+  {
+    "ID": 195,
+    "paese": "Vietnam",
+    "continente": "AS",
+    "sig": "VN",
+    "sigla": "VNM",
+    "prefisso": "+84"
+  },
+  {
+    "ID": 196,
+    "paese": "Yemen",
+    "continente": "AS",
+    "sig": "YE",
+    "sigla": "YEM",
+    "prefisso": "+967"
+  },
+  {
+    "ID": 197,
+    "paese": "Zambia",
+    "continente": "AF",
+    "sig": "ZM",
+    "sigla": "ZMB",
+    "prefisso": "+260"
+  },
+  {
+    "ID": 198,
+    "paese": "Zimbabwe",
+    "continente": "AF",
+    "sig": "ZW",
+    "sigla": "ZWE",
+    "prefisso": "+263"
+  }
+]
